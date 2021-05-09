@@ -1,3 +1,4 @@
+// 
 import React from "react";
 import { useSelector, useDispatch } from 'react-redux'
 import { addCount, decreaseCount, resetCount } from '../redux'
@@ -9,8 +10,11 @@ function Counter() {
     <section className='section-center'>
       <h1 className='title'> Count:  {count} </h1>
       <div className='button-container'>
+        {/* eslint-disable-next-line */}
         <button className='btn' onClick={ () => dispatch(decreaseCount()) } className="btn decrease">decrease</button>
+        {/* eslint-disable-next-line */}
         <button className='btn' onClick={ () => dispatch(resetCount()) }  className="btn reset">reset</button>
+        {/* eslint-disable-next-line */}
         <button className='btn' onClick={ () => dispatch(addCount()) } className="btn increase">increase</button>
       </div>
     </section>
