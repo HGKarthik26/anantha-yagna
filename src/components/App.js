@@ -32,6 +32,16 @@ stay safe!! stay home!! </p>
             </>
         } handleClose = {togglePopup}/> }
 
+        {
+            <>
+            <div className="jai-raam">
+           <h4> ಶ್ರೀ ರಾಮ ಜಯ ರಾಮ ಜಯ ಜಯ  ರಾಮ</h4>
+           <h4>श्री राम जय राम जय जय राम</h4>
+           <h4>Shri Ram Jaya Rama Jaya Jaya Rama</h4>
+           </div>
+           </>
+        }
+
         <Counter />
       </div>
     </Provider>

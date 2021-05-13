@@ -166,7 +166,7 @@ p {
     width: 90vw;
     margin: 0 auto;
     max-width: 35rem;
-    margin-top: 8rem;
+    margin-top: 3rem;
     background: var(--clr-white);
     border-radius: var(--radius);
     box-shadow: var(--light-shadow);
@@ -304,6 +304,13 @@ nav {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     color: #6600FF;
     text-align: center;
+}
+
+.jai-raam {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #ff9933;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 800px) {
