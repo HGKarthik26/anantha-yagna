@@ -23,27 +23,15 @@ function Counter() {
       </div>
       <div className="button-container">
         {/* eslint-disable-next-line */}
-        <button
-          className="btn"
-          onClick={() => dispatch(decreaseCount())}
-          className="btn decrease"
-        >
-          <RemoveIcon  fontSize="small" />
+        <button className="btn" onClick={() => dispatch(decreaseCount())}>
+          <RemoveIcon fontSize="small" />
         </button>
         {/* eslint-disable-next-line */}
-        <button
-          className="btn"
-          onClick={() => dispatch(resetCount())}
-          className="btn reset"
-        >
-          <RefreshIcon  fontSize="small" />
+        <button className="btn" onClick={() => dispatch(resetCount())}>
+          <RefreshIcon fontSize="small" />
         </button>
         {/* eslint-disable-next-line */}
-        <button
-          className="btn"
-          onClick={() => dispatch(addCount())}
-          className="btn increase"
-        >
+        <button className="btn" onClick={() => dispatch(addCount())}>
           <AddIcon fontSize="small" />
         </button>
       </div>
