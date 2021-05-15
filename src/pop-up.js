@@ -1,3 +1,6 @@
+import ReactSpeedometer from "react-d3-speedometer";
+import "./index.css"
+
 export const contentDiv = (
   <>
     <h3 className="pop-up-head"> ಜಪ ಯಜ್ಞ </h3>
@@ -37,6 +40,22 @@ export const raamTarakaMantraDiv = (
       <h4> ಶ್ರೀ ರಾಮ ಜಯ ರಾಮ ಜಯ ಜಯ ರಾಮ</h4>
       <h4>श्री राम जय राम जय जय राम</h4>
       <h4>Shri Ram Jaya Rama Jaya Jaya Rama</h4>
+    </div>
+  </>
+);
+
+export const countTracker = (
+  <>
+    <div className="speedometer-container">
+      <h4>Target : 100008</h4>
+      <ReactSpeedometer
+        height = "20"
+        minValue="0"
+        maxValue="100008"
+        value="16274"
+        segments="4"
+      />
+      <h4>Current count: 16274...</h4>
     </div>
   </>
 );

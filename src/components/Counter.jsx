@@ -23,16 +23,16 @@ function Counter() {
       </div>
       <div className="button-container">
         {/* eslint-disable-next-line */}
+        <button className="btn" onClick={() => dispatch(addCount())}>
+          <AddIcon fontSize="large" />
+        </button>
+        {/* eslint-disable-next-line */}
         <button className="btn" onClick={() => dispatch(decreaseCount())}>
-          <RemoveIcon fontSize="small" />
+          <RemoveIcon fontSize="large" />
         </button>
         {/* eslint-disable-next-line */}
         <button className="btn" onClick={() => dispatch(resetCount())}>
           <RefreshIcon fontSize="small" />
-        </button>
-        {/* eslint-disable-next-line */}
-        <button className="btn" onClick={() => dispatch(addCount())}>
-          <AddIcon fontSize="small" />
         </button>
       </div>
     </section>

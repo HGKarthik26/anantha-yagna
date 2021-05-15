@@ -30,5 +30,5 @@ export const links = [{
 export const social = [{
     id: 1,
     url: 'https://www.instagram.com/pakka_brahmanara_hudugi/',
-    icon: < FaInstagram / > ,
+    icon: < FaInstagram /> ,
 }];

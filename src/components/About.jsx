@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import { contentDiv, raamTarakaMantraDiv } from "../pop-up";
 
 function About() {
-    return (
-       <>
-       <h2>About PBH</h2>
-       </>
-    )
+  return (
+    <>
+      <div style={{textAlign:"center", margin:"2rem"}}>
+        {contentDiv}
+        {raamTarakaMantraDiv}
+      </div>
+    </>
+  );
 }
 
-export default About
+export default About;
