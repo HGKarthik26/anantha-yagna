@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { links, social } from '../data';
 import { FaBars } from "react-icons/fa";
 import logo from "../logo.PNG";
+import { Link } from "react-router-dom"
 import '../index.css'
 
 const Navbar = () => {
@@ -36,7 +37,7 @@ const Navbar = () => {
               const { id, url, text } = link;
               return (
                 <li key={id}>
-                  <a href={url}>{text}</a>
+                  <Link to={url}> {text} </Link>
                 </li>
               );
             })}

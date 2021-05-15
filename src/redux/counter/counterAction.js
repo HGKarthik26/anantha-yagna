@@ -1,4 +1,4 @@
-import { ADD_COUNT, DECREASE_COUNT, RESET_COUNT } from "./counterType"
+import { ADD_COUNT, DECREASE_COUNT, SET_COUNT, RESET_COUNT } from "./counterType"
 
 export const addCount = () => {
     return {
@@ -9,6 +9,13 @@ export const addCount = () => {
 export const decreaseCount = () => {
     return {
         type: DECREASE_COUNT
+    }
+}
+
+export const setCount = (count) => {
+    return {
+        type: SET_COUNT,
+        payload: count
     }
 }
 

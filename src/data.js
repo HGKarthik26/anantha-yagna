@@ -5,16 +5,16 @@ export const links = [{
         url: '/',
         text: 'home',
     },
-    // {
-    //     id: 2,
-    //     url: '/about',
-    //     text: 'Yagnas',
-    // },
-    // {
-    //   id: 3,
-    //   url: '/projects',
-    //   text: 'projects',
-    // },
+    {
+        id: 2,
+        url: '/yagnas',
+        text: 'yagnas',
+    },
+    {
+        id: 3,
+        url: '/about',
+        text: 'about',
+    },
     // {
     //   id: 4,
     //   url: '/contact',
@@ -30,5 +30,5 @@ export const links = [{
 export const social = [{
     id: 1,
     url: 'https://www.instagram.com/pakka_brahmanara_hudugi/',
-    icon: < FaInstagram / > ,
+    icon: < FaInstagram /> ,
 }];
