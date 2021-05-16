@@ -1,14 +1,23 @@
-//
-import React from "react";
+import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addCount, decreaseCount, resetCount, setCount } from "../redux";
 import AddIcon from "@material-ui/icons/Add";
 import RemoveIcon from "@material-ui/icons/Remove";
 import RefreshIcon from "@material-ui/icons/Refresh";
+import PopUp from './PopUp'
+import { googleFormContent }  from "../pop-up";
+
 
 function Counter() {
   const count = useSelector((state) => state.counter.count);
   const dispatch = useDispatch();
+  
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+const handleFormSubmit = () => {
+  setIsFormOpen(!isFormOpen);
+}
+
   return (
     <section className="section-center">
       <div className="count-container">
@@ -34,6 +43,14 @@ function Counter() {
         <button className="btn" onClick={() => dispatch(resetCount())}>
           <RefreshIcon fontSize="small" />
         </button>
+      </div>
+      <div className="sub-btn-container">
+        <button className="sub-btn" type="submit" disabled={count <= 0} onClick={ () => handleFormSubmit()}>
+          Submit count
+        </button>
+        { isFormOpen && (
+          <PopUp content={googleFormContent} handleClose={handleFormSubmit} />
+        ) }
       </div>
     </section>
   );
