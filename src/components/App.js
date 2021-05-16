@@ -11,7 +11,7 @@ import store from "../redux/store";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
     const togglePopup = () => {
       setIsOpen(!isOpen);
     };

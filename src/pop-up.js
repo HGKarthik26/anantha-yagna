@@ -1,5 +1,5 @@
 import ReactSpeedometer from "react-d3-speedometer";
-import "./index.css"
+import "./index.css";
 
 export const contentDiv = (
   <>
@@ -49,7 +49,7 @@ export const countTracker = (
     <div className="speedometer-container">
       <h4>Target : 100008</h4>
       <ReactSpeedometer
-        height = "20"
+        height="20"
         minValue="0"
         maxValue="100008"
         value="16274"
@@ -57,5 +57,20 @@ export const countTracker = (
       />
       <h4>Current count: 16274...</h4>
     </div>
+  </>
+);
+
+export const googleFormContent = (
+  <>
+    <iframe
+      className = "form-style"
+      title="count-submit-form"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSd_6AwnYeC2F3_xfRYTdHAnJLUirlz3xNVTWm0_5edqTFi-bg/viewform?embedded=true"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >
+      Loading…
+    </iframe>
   </>
 );
