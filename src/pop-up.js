@@ -52,10 +52,10 @@ export const countTracker = (
         height="20"
         minValue="0"
         maxValue="100008"
-        value="60081"
+        value"74090"
         segments="4"
       />
-      <h4>Current count: 60081...</h4>
+      <h4>Current count: 74090...</h4>
     </div>
   </>
 );
