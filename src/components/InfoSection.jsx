@@ -15,13 +15,12 @@ function InfoSection() {
       <div className="rss-section">
         <h3>RSS - Vijayanagar Khanda</h3>
         <p>
-          Rashtreeya Swayam Sevak (RSS)- Vijayanagara Khanda(Bengaluru) has an
-          ongoing Surya Namaskara Yagna and Maha Mrithyunjaya Mantra Yagna for
-          next 15 days starting from 24th May, 2021.
+          Rashtreeya Swayamsevak Sangh (RSS)- Vijayanagara Khanda(Bengaluru) has an
+          ongoing Surya Namaskara Yagna and Maha Mrithyunjaya Mantra Yagna for 15 days starting from 24th May, 2021.
         </p>
 
         <p>
-          Namaste to all SS Bandu, please click button below to submit your
+          Namaste to all SS bandhu, please click button below to submit your
           daily count of Surya Namaskara and Maha Mrithyunjaya Mantra.
         </p>
         <div className="sub-btn-container">
@@ -39,7 +38,7 @@ function InfoSection() {
         </p>
         <p>
           <b>
-            The Raama nama japa is ongoing and users can continue the submission
+            The Raama nama japa target of 1,00,008 is reached, but users can continue the submission
             the usual way.
           </b>
         </p>
