@@ -84,7 +84,6 @@ export const rssForm = (
       frameborder="0"
       marginheight="0"
       marginwidth="0"
-      target = "_blank"
     >
       Loading…
     </iframe>
