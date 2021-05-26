@@ -52,10 +52,10 @@ export const countTracker = (
         height="20"
         minValue="0"
         maxValue="100008"
-        value="74090"
+        value="100008"
         segments="4"
       />
-      <h4>Current count: 74090...</h4>
+      <h4>Current count: 105586...</h4>
     </div>
   </>
 );
@@ -63,9 +63,24 @@ export const countTracker = (
 export const googleFormContent = (
   <>
     <iframe
-      className = "form-style"
+      className="form-style"
       title="count-submit-form"
       src="https://docs.google.com/forms/d/e/1FAIpQLSd_6AwnYeC2F3_xfRYTdHAnJLUirlz3xNVTWm0_5edqTFi-bg/viewform?embedded=true"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+    >
+      Loading…
+    </iframe>
+  </>
+);
+
+export const rssForm = (
+  <>
+    <iframe
+      className="form-style"
+      title="count-submit-form"
+      src="https://docs.google.com/forms/d/e/1FAIpQLScUu7aZtKG5PGJHpJ9dHGxrpdBLQw6mLqHFXyAPkcQGj2Xtsg/viewform?embedded=true"
       frameborder="0"
       marginheight="0"
       marginwidth="0"

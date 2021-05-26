@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import Counter from "./Counter";
+import InfoSection from "./InfoSection"
 import { contentDiv, raamTarakaMantraDiv } from "../pop-up";
 import About from "./About";
 import Yagnas from './YagnaList'
@@ -24,6 +25,7 @@ function App() {
         <Switch>
           <Route exact path="/">
           {isOpen && <PopUp content={contentDiv} handleClose={togglePopup} />}
+            <InfoSection />
           {raamTarakaMantraDiv}
             <Counter />
           </Route>
